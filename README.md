@@ -11,8 +11,13 @@ This is a simple Todo application built off Django (including the Django REST Fr
 2. Navigate into the diretory ```[cd django-todo-react]```
 3. Source the virtual environment ```[pipenv shell]```
 4. Install the dependencies ```[pipenv install]```
-5. Navigate into the frontend directory ```[cd frontend]```
-5. Install the dependencies ```[npm install]```
+pyth5. Then install 
+```bash
+python -m pip install django-cors-headers
+pip install django-rest-framework
+```
+6. Navigate into the frontend directory ```[cd frontend]```
+7. Install the dependencies ```[npm install]```
 
 ## Run the application
 You will need two terminals pointed to the frontend and backend directories to start the servers for this application.
